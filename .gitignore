@@ -1,0 +1,15 @@
+!.gitignore
+!README.txt
+testcases/
+!code.cpp
+!code
+check
+OrderFile
+QueueFile
+StationFile
+TrainFile
+UserFile
+run-test
+bonus.md
+function
+management_system.md
