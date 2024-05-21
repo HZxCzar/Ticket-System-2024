@@ -1,9 +1,9 @@
 #ifndef LOGIN_HPP
 #define LOGIN_HPP
 #include "Components/utility.hpp"
-#include "Struct.hpp"
-#include "Comparison.hpp"
 #include "Components/map.hpp"
+#include "Components/utility.hpp"
+#include "Comparison.hpp"
 
 class LoginMap{
     private:
@@ -16,7 +16,7 @@ class LoginMap{
     bool out(Username &u);
     Privilege find(Username &c);
     void clean(){MyMap.clear();}
-    void show(){MyMap.Traverse();}
+    // void show(){MyMap.Traverse();}
 };
 
 #endif // LOGIN_HPP

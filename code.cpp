@@ -1,23 +1,13 @@
-#include "structure/Login.cpp"
 #include "structure/Login.hpp"
-// #include "structure/Order.hpp"
-// #include "structure/Order.cpp"
-// #include "structure/Queue.hpp"
-// #include "structure/Queue.cpp"
-#include "structure/Station.cpp"
 #include "structure/Station.hpp"
 #include "structure/Struct.hpp"
-#include "structure/Tools/TokenScanner.cpp"
 #include "structure/Tools/TokenScanner.hpp"
-#include "structure/Train.cpp"
 #include "structure/Train.hpp"
-#include "structure/User.cpp"
 #include "structure/User.hpp"
 #include <cstdio>
 #include <iostream>
 #include <string>
-// std::ifstream in("input.in");
-// std::ofstream out("output.out");
+
 void run() {
   std::fstream check;
   bool first = true;

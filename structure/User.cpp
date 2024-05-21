@@ -1,10 +1,5 @@
 #include "User.hpp"
-#include "Comparison.hpp"
-#include "Database.hpp"
-#include "Stream/output.cpp"
-#include "Struct.hpp"
-#include <cassert>
-#include <iostream>
+
 void User::add_user(Username &u, Password &p, Name &n, MailAddr &m,
                     Privilege &g) {
   UserInfo userinfo;

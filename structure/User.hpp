@@ -1,9 +1,8 @@
 #ifndef USER_HPP
 #define USER_HPP
-#include "Comparison.hpp"
-#include "Database.hpp"
-#include "Struct.hpp"
+
 #include <cassert>
+#include "Database.hpp"
 const string usfilename = "UserFile";
 class User {
 private:

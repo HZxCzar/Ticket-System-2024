@@ -13,6 +13,10 @@
 #include <string>
 #include <thread>
 #include <utility>
+#include "Comparison.hpp"
+#include "Stream/output.cpp"
+#include "Tools/function.hpp"
+#include "Struct.hpp"
 using std::string;
 // constexpr int Block_Size = 40;
 constexpr int LRU_MAX = 20;

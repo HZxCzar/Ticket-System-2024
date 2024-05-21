@@ -1,18 +1,4 @@
 #include "Station.hpp"
-// #include "Box.cpp"
-// #include "Comparison.hpp"
-#include "./Stream/output.cpp"
-#include "Components/map.hpp"
-#include "Components/utility.hpp"
-#include "Database.hpp"
-// #include "Stream/output.cpp"
-// #include "Struct.hpp"
-#include "RemSeat.cpp"
-#include "Struct.hpp"
-#include "Tools/function.hpp"
-#include <bits/types/struct_tm.h>
-#include <cassert>
-#include <iostream>
 
 bool StationDate::release_train(Train &t) {
   Box box;

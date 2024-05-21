@@ -1,22 +1,5 @@
-#ifndef REMSEAT_HPP
-#define REMSEAT_HPP
-// #include "RemSeat.hpp"
-// #include "Box.cpp"
-#include "Comparison.hpp"
-#include "Struct.hpp"
-// #include "Database.hpp"
-// #include "Stream/output.cpp"
-// #include "Struct.hpp"
-// #include "Tools/function.hpp"
-#include <fstream>
-#include <cassert>
-#include <cstring>
-#include <iostream>
-#include <string>
-
-const std::string seatfilename = "RemSeatFile";
+#include "RemSeat.hpp"
 std::fstream seatFile;
-constexpr int SeatBlockSize = sizeof(Seat);
 
 
 bool Seat_add_train(Box &box, StationNum &n, SeatNum &m, SaleDate &d) {
@@ -81,4 +64,4 @@ void Seat_clean()
 //   }
 //   return true; // to modify
 // }
-#endif
+// #endif

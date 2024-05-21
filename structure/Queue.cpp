@@ -1,6 +1,4 @@
 #include "Queue.hpp"
-#include "Struct.hpp"
-#include "Tools/function.hpp"
 
 bool QueueDate::add_queue(Username &u, TrainID &i, Turn &turn, Station &beg,
                           Station &end, int &num, int &seq) {

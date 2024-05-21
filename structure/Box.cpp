@@ -2,8 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-const std::string BoxName = "Box";
-constexpr int Box_Size = sizeof(Box);
+#include "Box.hpp"
 std::fstream BoxFile;
 void Box_clear() {
   BoxFile.open(BoxName, std::ios::out);

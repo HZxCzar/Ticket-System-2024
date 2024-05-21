@@ -946,13 +946,13 @@ public:
     }
   }
 
-  void Traverse() {
-    for (iterator it = begin(); it != end(); ++it) {
-      std::cout << (*it).first << " | " << (*it).second << '\n';
-    }
-    std::cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
-    RBmap.ShowTree();
-  }
+  // void Traverse() {
+  //   for (iterator it = begin(); it != end(); ++it) {
+  //     std::cout << (*it).first << " | " << (*it).second << '\n';
+  //   }
+  //   std::cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+  //   RBmap.ShowTree();
+  // }
 };
 
 } // namespace sjtu

@@ -1,7 +1,7 @@
 #ifndef FUNCTION_HPP
 #define FUNCTION_HPP
 
-#include "../Box.cpp"
+#include "../Box.hpp"
 #include "../Comparison.hpp"
 #include "../Struct.hpp"
 #include <cassert>

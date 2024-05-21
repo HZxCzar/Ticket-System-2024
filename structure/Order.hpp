@@ -1,7 +1,6 @@
 #ifndef ORDER_HPP
 #define ORDER_HPP
 #include "Database.hpp"
-#include "Struct.hpp"
 #include <cassert>
 const string orfilename = "OrderFile";
 class OrderDate {

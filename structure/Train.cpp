@@ -1,15 +1,4 @@
 #include "Train.hpp"
-// #include "Box.cpp"
-// #include "Comparison.hpp"
-// #include "Database.hpp"
-// #include "Stream/output.cpp"
-#include "RemSeat.cpp"
-// #include "Struct.hpp"
-#include "Struct.hpp"
-#include "Tools/function.hpp"
-#include <cassert>
-#include <iostream>
-#include <string>
 
 bool TrainDate::add_train(TrainID &i, StationNum &n, SeatNum &m, Station *s,
                           Prices *p, StartTime &x, TravelTimes *t,

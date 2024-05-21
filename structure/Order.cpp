@@ -1,7 +1,4 @@
 #include "Order.hpp"
-#include "Struct.hpp"
-#include <cassert>
-#include "Stream/output.cpp"
 
 bool OrderDate::buy_ticket(Username &u,TrainID &i,Time &leave,Time &arrive, Station &f, Station &t,int &cost,int &num, Status stat,int &seq)
 {

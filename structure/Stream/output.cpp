@@ -1,11 +1,4 @@
-#ifndef OUTPUT_HPP
-#define OUTPUT_HPP
-
-#include <iostream>
-#include <ostream>
-#include <string>
-// #include <ostream>
-#include "../Struct.hpp"
+#include "output.hpp"
 using std::ostream;
 
 ostream &operator<<(ostream &os, const UserInfo &s)
@@ -28,19 +21,6 @@ ostream &operator<<(ostream &os,const Privilege &s)
 
 ostream &operator<<(ostream &os,Time s)
 {
-    // if(s._date>61)
-    // {
-    //     s._date-=61;
-    //     os<<"08-"<<s._date<<'|'<<s._time/60<<'-'<<s._time%60;
-    // }
-    // else if(s._date>30)
-    // {
-    //     s._date-=31;
-    //     os<<"07-"<<s._date<<'|'<<s._time/60<<'-'<<s._time%60;
-    // }
-    // else{
-    //     os<<"06-"<<s._date<<'|'<<s._time/60<<'-'<<s._time%60;
-    // }
     std::string month=std::to_string(s._date/100);
     std::string day=std::to_string(s._date%100);
     std::string hour=std::to_string(s._time/60);
@@ -75,4 +55,3 @@ ostream &operator<<(ostream &os,const TrainID &s)
     os<<s._trainID;
     return os;
 }
-#endif

@@ -1,9 +1,11 @@
 #ifndef STATION_HPP
 #define STATION_HPP
 
-#include "Comparison.hpp"
+#include "Components/exceptions.hpp"
+#include "Components/map.hpp"
+#include "Components/utility.hpp"
 #include "Database.hpp"
-#include "Struct.hpp"
+#include "RemSeat.hpp"
 #include <cassert>
 const string filename = "StationFile";
 class StationDate {

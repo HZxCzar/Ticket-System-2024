@@ -2,7 +2,6 @@
 #define QUEUE_HPP
 
 #include "Database.hpp"
-#include "Struct.hpp"
 #include <cassert>
 const string quefilename = "QueueFile";
 class QueueDate {

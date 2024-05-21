@@ -1,13 +1,10 @@
 #ifndef TRAIN_HPP
 #define TRAIN_HPP
 
-// #include "Comparison.hpp"
 #include "Database.hpp"
 #include "Order.hpp"
-#include "Order.cpp"
 #include "Queue.hpp"
-#include "Queue.cpp"
-#include "Struct.hpp"
+#include "RemSeat.hpp"
 #include <cassert>
 const string tfilename = "TrainFile";
 class TrainDate {
