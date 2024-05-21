@@ -1,4 +1,4 @@
-!.gitignore
+.gitignore
 !README.txt
 testcases/
 !code.cpp
@@ -13,3 +13,8 @@ run-test
 bonus.md
 function
 management_system.md
+Front_End
+Back_End
+build/
+.cache/
+.vscode/
