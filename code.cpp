@@ -1,9 +1,9 @@
-#include "structure/Login.hpp"
-#include "structure/Station.hpp"
-#include "structure/Struct.hpp"
-#include "structure/Tools/TokenScanner.hpp"
-#include "structure/Train.hpp"
-#include "structure/User.hpp"
+#include "src/Login.hpp"
+#include "src/Station.hpp"
+#include "src/Struct.hpp"
+#include "src/Tools/TokenScanner.hpp"
+#include "src/Train.hpp"
+#include "src/User.hpp"
 #include <cstdio>
 #include <iostream>
 #include <string>

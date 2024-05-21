@@ -10,13 +10,13 @@ enable_testing()
 # 添加可执行文件
 add_executable(code 
 code.cpp 
-structure/User.cpp 
-structure/Train.cpp 
-structure/Station.cpp 
-structure/RemSeat.cpp 
-structure/Queue.cpp 
-structure/Order.cpp 
-structure/Login.cpp 
-structure/Box.cpp 
-structure/Tools/TokenScanner.cpp 
-structure/Stream/output.cpp)
+src/User.cpp 
+src/Train.cpp 
+src/Station.cpp 
+src/RemSeat.cpp 
+src/Queue.cpp 
+src/Order.cpp 
+src/Login.cpp 
+src/Box.cpp 
+src/Tools/TokenScanner.cpp 
+src/Stream/output.cpp)
